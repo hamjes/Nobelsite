@@ -1,0 +1,106 @@
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(210, 163, 21);
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: gainsboro;
+}
+
+i {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:rgb(210, 163, 21);
+}
+
+main {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    padding-left: 15px;
+    padding-right: 5%;
+}
+
+header {
+    position: relative;
+    font-size: 300%;
+    font-variant: small-caps;
+    color: rgb(210, 163, 21);
+    text-align: center;
+    top: 0%;
+    height: 10%;
+    width: 100%;
+    left: 0%;
+    background-color: rgb(0, 0, 0);
+}
+
+.selma {
+    width: 70%;
+}
+
+.luther {
+    width: 80%;
+}
+
+.elinor {
+    width: 65%;
+}
+
+.einstein {
+    width: 70%;
+}
+
+.curie {
+    width: 80%;
+}
+
+.alexander {
+    width: 70%;
+}
+
+#bild {
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 200%;
+    color: rgb(210, 163, 21);
+    top: 10%;
+    left: 40%; 
+}
+
+#framsida {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: rgb(210, 163, 21);
+    background-color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#framsida:hover {
+    background-color: rgb(210, 163, 21);
+    color: black;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(210, 163, 21);
+}
+
+footer {
+    top: 10%;
+    width: 100px;
+    color: rgb(210, 163, 21);
+    background-color: rgb(0, 0, 0);
+}

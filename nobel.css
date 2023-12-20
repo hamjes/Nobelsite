@@ -1,0 +1,119 @@
+ html {
+     background-color: rgb(0, 0, 0);
+ }
+
+ .twocols {
+    display:flex;
+    gap:70px; 
+ }
+
+ .button {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     background-color: rgb(210, 163, 21);
+     padding: 3px;
+     font-size: 15px;
+     border-radius: 2px;
+ }
+
+ .button:hover {
+     background-color: gainsboro;
+ }
+
+ .active {
+     text-decoration: none;
+     font-weight: bold;
+     color: rgb(255, 255, 255);
+     background-color: rgb(210, 163, 21);
+     padding: 3px;
+     font-size: 20px;
+     border-radius: 2px;
+ }
+
+ @media screen and (max-width: 800px) {
+    .twocols {
+        flex-direction: column !important;
+    }
+}
+
+ .del1 {
+     text-align: left;
+     margin-left: 5%;
+     width: 90%;
+     height: 100%;
+     font-size: 100%;
+     color: rgb(255, 255, 255);
+ }
+
+ .del2 {
+     text-align: left;
+     font-size: 100%;
+     margin-right: 5%;
+     margin-left: 5%;
+     width: 90%;
+     height: 100%;
+     color: rgb(255, 255, 255);
+ }
+
+ header {
+     position: relative;
+     font-size: 300%;
+     font-variant: small-caps;
+     color: rgb(210, 163, 21);
+     text-align: center;
+     top: 0%;
+     height: 10%;
+     width: 100%;
+     left: 0%;
+     background-color: rgb(0, 0, 0);
+ }
+
+ footer {
+     text-align: center;
+     font-weight: bold;
+     color: rgb(210, 163, 21);
+     height: 3%;
+     left: 0%;
+     right: 0%;
+     background-color: rgba(0, 0, 0, 0.468);
+ }
+
+ #ekonomi {
+     width: 15%;
+     color: white;
+     background-color: rgb(0, 0, 0);
+ }
+
+ .mynt {
+     width: 100%;
+ }
+
+ h1 {
+     font-size: 200%;
+     font-variant: small-caps;
+     color: rgb(210, 163, 21)
+ }
+
+ h2 {
+     font-size: 150%;
+     color: rgb(210, 163, 21);
+ }
+
+ hr {
+     height: 1px;
+     background-color: rgb(210, 163, 21);
+ }
+
+ #framsida {
+     position: relative;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 100%;
+     color: rgb(210, 163, 21);
+     background-color: rgb(0, 0, 0);
+     text-decoration: none;
+ }
+
+ #framsida:hover {
+     background-color: rgb(210, 163, 21);
+     color: black;
+ }
